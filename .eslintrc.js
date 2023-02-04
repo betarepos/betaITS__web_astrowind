@@ -9,7 +9,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  rules: {},
+  rules: {
+    linebreak- style: ["error", "windows"]
+  },
   overrides: [
     {
       files: ['*.js'],

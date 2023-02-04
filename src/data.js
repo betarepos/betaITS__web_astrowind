@@ -61,67 +61,65 @@ export const headerData = {
     { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
   ],
 };
-  
+
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Services',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Managed Endpoint', href: '#' },
+        { text: 'Managed Network', href: '#' },
+        { text: 'Managed M365', href: '#' },
+        { text: 'Managed Security', href: '#' },
+        { text: 'Business Continuity', href: '#' },
+        { text: 'Mobile Device Management', href: '#' },
+        { text: 'Patchmanagement', href: '#' },
       ],
     },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
+    // {
+    //   title: 'Technologien',
+    //   links: [
+    //     { text: 'Windows 10/11', href: '#' },
+    //     { text: 'Partners', href: '#' },
+    //     { text: 'Atom', href: '#' },
+    //     { text: 'Electron', href: '#' },
+    //     { text: 'AstroWind Desktop', href: '#' },
+    //   ],
+    // },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Help Desk', href: '#' },
+        { text: 'Knowledgebase', href: '#' },
+        { text: 'Teamviewer', href: '#' },
+        { text: 'Managed Backup Portal', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'betaITS',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Über Uns', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
+        { text: 'Karriere', href: '#' },
+        // { text: 'Press', href: '#' },
+        // { text: 'Inclusion', href: '#' },
+        // { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Impressum', href: getPermalink('/terms') },
+    { text: 'Datenschutz', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="#"> betaITS</a> · Alle Rechte vorbehalten. Bilder von <a class="hover:underline" href=https://unsplash.com>Unsplash</a>
   `,
 };
