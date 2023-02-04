@@ -1,50 +1,36 @@
 ---
-publishDate: 2023-01-12T00:00:00Z
-title: Get started with AstroWind to create a website using Astro and Tailwind CSS
-description: Lorem ipsum dolor sit amet
-excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
+publishDate: 2023-01-24T00:00:00Z
+title: Produktiver werden mit Microsoft 365
+description: Tipps & Tricks um mit Microsofts Anwendungsportfolio produktiver zu arbeiten
+excerpt: OneDrive für unterbrechungsfreie Arbeit, ToDo und Planner für Aufgabenmanagement und weitere Anregungen ihre Arbeitsalltag produktiver zu gestalten.
 image: ~/assets/images/do-more.jpg
-category: Tutorials
+category: productivity
 tags:
-  - astro
-  - tailwind css
-canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  - m365
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Microsoft 365 ist eine leistungsstarke Suite von Produktivitätstools, die beliebte Anwendungen wie Word, Excel, PowerPoint und Outlook umfasst. Es umfasst Cloud-Speicher über OneDrive und SharePoint sowie Tools für die Zusammenarbeit über Teams, ToDo und Planner. Egal, ob Sie in einem Büro oder von unterwegs aus arbeiten, Microsoft 365 kann Ihnen helfen, produktiver und effizienter zu arbeiten.
 
-## Nostra torquent consequat volutpat aliquet neque
+Im Folgenden finden Sie einige Tipps, wie Sie das Beste aus Microsoft 365 herausholen können:
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit proin, aenean litora volutpat urna egestas magnis arcu non, cras ut cursus et sed morbi lectus. Integer faucibus sagittis eu nunc urna aliquet a laoreet torquent, suspendisse penatibus nulla sollicitudin congue rutrum dictum. Ornare mi habitasse fermentum phasellus dui et morbi litora sodales dictum id erat, nibh purus class ligula aenean lectus venenatis euismod cras torquent ac. Senectus sagittis conubia hendrerit at egestas porta venenatis nisi metus gravida tempor, aenean facilisis nisl ante facilisi lacus integer hac iaculis purus. Scelerisque libero torquent egestas curae tellus viverra inceptos imperdiet urna, porta suspendisse interdum primis odio morbi tempor commodo dictumst, suscipit ornare habitasse semper feugiat cras quisque lobortis.
+## Unsere Top Tipps für die Arbeit mit M365
 
-Iaculis arcu commodo dis proin vitae himenaeos, ante tristique potenti magna ligula, sagittis libero fermentum ullamcorper sociis. Sem eros non arcu natoque fringilla lacus vestibulum lacinia integer mus viverra in proin, sagittis fusce tortor erat enim rutrum vulputate curae laoreet class diam. Inceptos convallis ac nisi natoque nam quisque magnis ut nullam fringilla curae, luctus lacus purus habitant erat magna molestie class habitasse metus, nibh lobortis tortor curabitur neque phasellus feugiat netus morbi parturient. Neque malesuada mauris justo himenaeos pharetra, ullamcorper enim ligula a nulla consequat, eget vivamus velit ridiculus.
+1. Verwenden Sie OneDrive: OneDrive ist ein Cloud-Speicherdienst, der zum Lieferumfang von Microsoft 365 gehört. Er ermöglicht es Ihnen, Ihre Dateien zu speichern, darauf zuzugreifen und sie von überall aus zu bearbeiten. Setzen Sie ihre Arbeit einfach an einem anderen Gerät fort. Sie können auch mit anderen (auch Externen) in Echtzeit an Dokumenten zusammenarbeiten, was die gemeinsame Arbeit an Projekten erleichtert.
 
-## Praesent tellus ad sapien erat or
+2. Nutzen Sie die Vorteile von Tastaturkürzeln: Microsoft 365 verfügt über zahlreiche Tastenkombinationen, mit denen Sie Zeit sparen und effizienter arbeiten können. So können Sie zum Beispiel "Strg + S" verwenden, um ein Dokument in Word zu speichern, oder "Strg + C", um Text zu kopieren. Eine vollständige Liste der Tastenkombinationen finden Sie, wenn Sie in jeder Anwendung im Menü "Hilfe" nach "Tastenkombinationen" suchen. Microsoft hat viele Tastenkombinationen über die M365 Welt synchronisiert. So können Sie in den meisten Apps mit "Strg + 1" bis "Strg + 5" durch die Navigation der App wechseln.
 
-- Quam orci nostra mi nulla, hac a.
+3. Verwenden Sie Microsoft Teams für die Zusammenarbeit: Teams ist die Informations- und Kollaborationsplattform, die in Microsoft 365 integriert ist. Sie ermöglicht es Ihnen, mit Kollegen an einem Ort zu chatten, Videoanrufe zu tätigen und Dateien auszutauschen. Durch die Teamsstruktur finden Sie alle Informationen zu Projekten, Aufgaben und Dokumenten an einem Ort. Zusätzlich bietet Ihnen Teams eine starke Videokonferenzlösung in der Sie mit Kollegen und externen Partnern produktive Meetings, Webinare und auch Veranstaltungen durchführen können.
 
-- Interdum iaculis quis tellus sociis orci nulla, quam rutrum conubia tortor primis.
+4. Automatisieren Sie sich wiederholende Aufgaben mit Makros: Microsoft 365 enthält Makro-Aufzeichnungstools, mit denen Sie sich wiederholende Aufgaben automatisieren können. So können Sie beispielsweise ein Makro verwenden, um eine Kalkulationstabelle automatisch zu formatieren oder eine Standard-E-Mail-Signatur einzufügen.
 
-- Non felis sem placerat aenean duis, ornare turpis nostra.
+5. Automatisierung 2.0 mit PowerAutomate: Wem die Funktionen von Macros nicht weit genug gehen, der kann mit der PowerPlattform innerhalb von M365 Aufgaben über verschiedene Anwendungen hinaus automatisieren lassen. Oder mit PowerApps eigene Anwendungen für das Unternehmen schreiben, ganz ohne Programmierkenntnisse.
 
-- Habitasse duis sociis sagittis cursus, ante dictumst commodo.
+6. Profitieren Sie von Vorlagen: Microsoft 365 enthält viele Vorlagen, mit denen Sie bei der Erstellung von Dokumenten, Tabellenkalkulationen und Präsentationen Zeit und Mühe sparen können. Sie können zum Beispiel eine Vorlage verwenden, um einen professionellen Lebenslauf, einen Geschäftsplan oder ein Projektangebot zu erstellen.
 
-Duis maecenas massa habitasse inceptos imperdiet scelerisque at condimentum ultrices, nam dui leo enim taciti varius cras habitant pretium rhoncus, ut hac euismod nostra metus sagittis mi aenean. Quam eleifend aliquet litora eget a tempor, ultricies integer vestibulum non felis sodales, eros diam massa libero iaculis.
+7. Verwalten Sie Aufgaben mit Planner und ToDo: Mit Planner können Sie Aufgaben im Team für jeden sichtbar und nachvollziehbar machen. ToDo hingegen ist Ihre persönliche Aufgabenverwaltung, mit starken Erinnerungsfunktionen, Wiederholung und der Integration zu Outlook wird ToDo zu Ihrem digitalen Personal Assistant.
 
-Nisl ligula ante magnis himenaeos pellentesque orci cras integer urna ut convallis, id phasellus libero est nunc ultrices eget blandit massa ac hac, morbi vulputate quisque tellus feugiat conubia luctus tincidunt curae fermentum. Venenatis dictumst tincidunt senectus vivamus duis dis sociis taciti porta primis, rhoncus ridiculus rutrum curae mattis ullamcorper ac sagittis nascetur curabitur erat, faucibus placerat vulputate eu at habitasse nulla nisl interdum. Varius turpis dignissim montes ac ante tristique quis parturient hendrerit faucibus, consequat auctor penatibus suspendisse rutrum erat nulla inceptos est justo, etiam mollis mauris facilisi cras sociosqu eu sapien sed.
+## Fazit
 
-Blandit aptent conubia mollis mauris habitasse suspendisse torquent aenean, ac primis auctor congue cursus mi posuere molestie, velit elementum per feugiat libero dictumst phasellus. Convallis mollis taciti condimentum praesent id porttitor ac dictumst at, sed in eu eleifend vehicula fermentum lectus litora venenatis, gravida hac molestie cum sociosqu mus viverra torquent. Congue est fusce habitasse ridiculus integer suscipit platea volutpat, inceptos varius elementum pellentesque malesuada interdum magnis. Hac lacus eget enim purus massa commodo nec lectus natoque fames arcu, mattis class quam ut neque dui cras quis diam orci sed velit, erat morbi eros suscipit sagittis laoreet vivamus torquent nulla turpis.
+Wenn Sie diese Tipps befolgen, können Sie die Vorteile von Microsoft 365 voll ausschöpfen und Ihre Arbeit produktiver gestalten. Ganz gleich, ob Sie an einem Einzelprojekt arbeiten oder mit einem Team zusammenarbeiten, Microsoft 365 bietet Ihnen die Werkzeuge, die Sie benötigen, um Ihre Arbeit zu erledigen.
 
-Ridiculus velit suscipit consequat auctor interdum magna gravida dictumst libero ut habitasse, sollicitudin vehicula suspendisse leo erat tristique at platea sagittis proin dignissim, id ornare scelerisque et urna maecenas congue tincidunt dictum malesuada. Dui vulputate accumsan scelerisque ridiculus dictum quisque et nam hac, tempus ultricies curabitur proin netus diam vivamus. Vestibulum ante ac auctor mi urna risus lacinia vulputate justo orci sociis dui semper, commodo morbi enim vivamus neque sem pellentesque velit donec hac metus odio. Tempor ultrices himenaeos massa sollicitudin mus conubia scelerisque cubilia, nascetur potenti mauris convallis et lectus gravida egestas sociis, erat eros ultricies aptent congue tortor ornare.
-
-Pretium aliquet sodales aliquam tincidunt litora lectus, erat dui nibh diam mus, sed hendrerit condimentum senectus arcu. Arcu a nibh auctor dapibus eros turpis tempus commodo, libero hendrerit dictum interdum mus class sed scelerisque, sapien dictumst enim magna molestie habitant donec. Fringilla dui sed curabitur commodo varius est vel, viverra primis habitant sapien montes mattis dignissim, gravida cubilia laoreet tempus aliquet senectus. Sociosqu purus praesent porttitor curae sollicitudin accumsan feugiat maecenas donec quis lacus, suscipit taciti convallis odio morbi eros nibh bibendum nunc orci. Magna cras nullam aliquam metus nibh sagittis facilisi tortor nec, mus varius curae ridiculus fames congue interdum erat urna, neque odio lobortis mi mattis diam cubilia arcu.
-
-Laoreet fusce nec class porttitor mus proin aenean, velit vestibulum feugiat porta egestas sapien posuere, conubia nisi tempus varius hendrerit tortor. Congue aliquam scelerisque neque vivamus habitasse semper mauris pellentesque accumsan posuere, suspendisse lectus gravida erat sagittis arcu praesent mus ornare. Habitasse nibh nam morbi mollis senectus erat risus, cum sollicitudin class platea congue mattis venenatis, luctus aenean parturient hendrerit malesuada ante. Mus auctor tincidunt consequat massa tortor nulla luctus habitasse vestibulum quis velit, laoreet sagittis cum facilisi in sem tellus leo vulputate vehicula bibendum orci, felis nisl blandit lacus convallis congue turpis magna facilisis condimentum.
-
-Dictumst pellentesque urna donec sociis suscipit montes consequat, commodo quam habitasse senectus fringilla maecenas, inceptos magna tristique eu nullam nam. Maecenas orci nibh hac eu tristique ut penatibus ultrices ante, pellentesque cubilia pharetra dis facilisis aliquam praesent malesuada vivamus, commodo cras velit convallis molestie nec tellus augue. Etiam ut convallis risus id dapibus platea laoreet accumsan, habitant et aenean netus inceptos iaculis per, mauris curae at ligula odio ad eu. Mauris erat tempor interdum sapien commodo per nullam tortor, fusce facilisis vehicula egestas dui nulla conubia ut fames, fringilla et tincidunt penatibus facilisi at mollis.
-
-Fermentum sociosqu litora primis sollicitudin fusce diam consequat vehicula per lobortis et, viverra sodales magna rutrum sed mollis faucibus molestie purus montes est, risus nostra congue venenatis lectus enim torquent eros dis dapibus. Dui suscipit scelerisque massa ligula euismod accumsan augue, magna vel lacus ante nullam senectus commodo, viverra cubilia eros eget penatibus tempor. Mattis mauris hac felis semper dui sociis faucibus mollis ornare pretium aliquam velit nisl, quis litora sem at vel duis rutrum imperdiet natoque viverra himenaeos tempor.
-
-Integer eu tristique purus luctus vivamus porttitor vel nisl, tortor malesuada augue vulputate diam velit pellentesque sodales, duis phasellus vestibulum fermentum leo facilisi porta. Hac porttitor cum dapibus volutpat quisque odio taciti nulla senectus mollis curae, accumsan suscipit cubilia tempor ligula in venenatis justo leo erat, magna tincidunt nullam lacinia luctus malesuada non vivamus praesent pharetra. Non quam felis montes pretium volutpat suspendisse lacus, torquent magna dictumst orci libero porta, feugiat taciti cras ridiculus aenean rutrum. Tellus nostra tincidunt hac in ligula mi vulputate venenatis pellentesque urna dui, at luctus tristique quisque vel a dignissim scelerisque platea pretium, suspendisse ante phasellus porttitor quis aliquam malesuada etiam enim nullam.
-
-Hendrerit taciti litora nec facilisis diam vehicula magnis potenti, parturient velit egestas nisl lobortis tincidunt rutrum cursus, fusce senectus mi massa primis mattis rhoncus. Accumsan est ac varius consequat vulputate, ligula cursus euismod sagittis inceptos scelerisque, lacus malesuada torquent dictumst. Volutpat morbi metus urna rhoncus nunc tempor molestie, congue curabitur quis interdum posuere. Mollis viverra velit tortor mus netus nunc molestie metus, sem massa himenaeos luctus feugiat taciti iaculis fames porttitor, leo arcu consequat gravida dapibus pulvinar elementum.
+Sollten Sie mehr zum Produktumfang und den Einsatzmöglichkeiten in Ihrem Unternehmen wissen wollen, dann kontaktieren Sie uns gerne. Wir sind die Experten für die technische und organisatorische Einführung von M365 in Unternehmen.
