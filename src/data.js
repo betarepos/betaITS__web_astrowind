@@ -75,23 +75,13 @@ export const footerData = {
         { text: 'Patchmanagement', href: '#' },
       ],
     },
-    // {
-    //   title: 'Technologien',
-    //   links: [
-    //     { text: 'Windows 10/11', href: '#' },
-    //     { text: 'Partners', href: '#' },
-    //     { text: 'Atom', href: '#' },
-    //     { text: 'Electron', href: '#' },
-    //     { text: 'AstroWind Desktop', href: '#' },
-    //   ],
-    // },
     {
       title: 'Support',
       links: [
-        { text: 'Help Desk', href: '#' },
-        { text: 'Knowledgebase', href: '#' },
-        { text: 'Teamviewer', href: '#' },
-        { text: 'Managed Backup Portal', href: '#' },
+        { text: 'Help Desk', href: 'https://helpdesk.beta-its.de' },
+        { text: 'Knowledgebase', href: 'https://helpdesk.beta-its.de' },
+        { text: 'Teamviewer', href: 'https://download.teamviewer.com/download/TeamViewerQS.exe' },
+        { text: 'Managed Backup Portal', href: 'https://m365.backups-beta-its.de' },
       ],
     },
     {
@@ -112,13 +102,12 @@ export const footerData = {
     { text: 'Datenschutz', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/betaITSgmbh' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/betaits-gmbh/' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="#"> betaITS</a> · Alle Rechte vorbehalten. Bilder von <a class="hover:underline" href=https://unsplash.com>Unsplash</a>
+    Made with ♥ by <a class="text-blue-600 hover:underline dark:text-gray-200" href="#"> betaITS</a> · Alle Rechte vorbehalten. Bilder von <a class="hover:underline" href=https://unsplash.com>Unsplash</a>
   `,
 };
