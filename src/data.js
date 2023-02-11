@@ -3,11 +3,11 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'Services',
       links: [
         {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
+          text: 'Managed Endpoint',
+          href: getPermalink('/services/managed-endpoint'),
         },
         {
           text: 'Startup',
