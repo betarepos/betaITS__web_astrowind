@@ -13,7 +13,7 @@ Microsoft 365 ist eine leistungsstarke Suite von Produktivitätstools, die belie
 
 Im Folgenden finden Sie einige Tipps, wie Sie das Beste aus Microsoft 365 herausholen können:
 
-## Unsere Top Tipps für die Arbeit mit M365
+## Unsere Top Tipps für die Arbeit mit M365.
 
 1. Verwenden Sie OneDrive: OneDrive ist ein Cloud-Speicherdienst, der zum Lieferumfang von Microsoft 365 gehört. Er ermöglicht es Ihnen, Ihre Dateien zu speichern, darauf zuzugreifen und sie von überall aus zu bearbeiten. Setzen Sie ihre Arbeit einfach an einem anderen Gerät fort. Sie können auch mit anderen (auch Externen) in Echtzeit an Dokumenten zusammenarbeiten, was die gemeinsame Arbeit an Projekten erleichtert.
 
