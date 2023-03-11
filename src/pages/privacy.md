@@ -21,7 +21,7 @@ Vertreten durch: Benjamin Tasche
 
 Bei Fragen zu unserem Datenschutz nehmen Sie bitte mit unserem externen Datenschutzbeauftragten Kontakt auf:
 
-Frau Maria Kremer <br>
+Frau Winona Wenning <br>
 c/o Althammer & Kill GmbH & Co. KG <br>
 Roscherstraße 7, 30161 Hannover
 
