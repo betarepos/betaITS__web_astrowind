@@ -1,5 +1,6 @@
 ---
 title: 'Datenschutz'
+description: 'Auf unserer Datenschutzseite informieren wir Sie darüber, wie wir mit Ihren persönlichen Daten umgehen. Wir legen großen Wert auf den Schutz Ihrer Privatsphäre und halten uns an die geltenden Datenschutzgesetze. Erfahren Sie mehr über unsere Datenschutzpraktiken und wie wir sicherstellen, dass Ihre Daten sicher und geschützt sind. Bei Fragen oder Anliegen können Sie uns gerne kontaktieren.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
