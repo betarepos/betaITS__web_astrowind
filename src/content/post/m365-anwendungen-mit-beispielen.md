@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-09T00:00:00Z
 title: Microsoft 365 -  Anwendungsbeispiele für jede App
-description: Anwendungsbeispiele für die unterschiedlichen Apps aus der Microsoft 365 Familie.
+description: In unserem neuesten Blog-Beitrag stellen wir Ihnen jede Microsoft 365-App vor und zeigen Ihnen, wie Sie diese am besten nutzen können. Wir geben Ihnen einen umfassenden Überblick über die verschiedenen Apps wie Word, Excel, PowerPoint, Teams und viele mehr. Wir erklären, welche App für welche Aufgaben am besten geeignet ist und teilen bewährte Methoden, um das Beste aus den Anwendungen herauszuholen. Lesen Sie jetzt unseren Beitrag und erfahren Sie, wie Sie mit Microsoft 365 produktiver arbeiten können.
 excerpt: Microsoft 365 steckt voll mit unterschiedlichen Anwendungen, wofür diese sich einsetzen lassen, erfahren Sie hier.
 image: ~/assets/images/tools.jpg
 category: productivity

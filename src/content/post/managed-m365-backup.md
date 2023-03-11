@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-02-03T00:00:00Z
 title: Managed M365 Backup
-description: Warum Sie trotz Hochverfügbarkeit und Papierkorb ihre Microsoft 365 Daten zusätzlich durch ein Backup sichern sollten.
+description: In unserem neuesten Blog-Beitrag erfahren Sie, warum es wichtig ist, einen Backup-Service für Ihre Microsoft 365-Daten zu nutzen. Wir erklären, warum viele Unternehmen glauben, dass ihre Daten sicher sind, wenn sie in der Cloud gespeichert sind, und warum dies ein gefährlicher Irrtum sein kann. Wir teilen auch bewährte Methoden für die Sicherung Ihrer Daten, um Verluste bei Ausfällen oder Cyber-Angriffen zu vermeiden. Lesen Sie jetzt unseren Beitrag und erfahren Sie, wie wir Ihnen helfen können, Ihre Microsoft 365-Daten zu schützen.
 excerpt: Hochverfügbarkeit ist kein Backup, warum Sie trotzdem Backups ihrer Clouddaten machen sollten!
 image: ~/assets/images/data-backup.jpg
 category: 'managed service'
