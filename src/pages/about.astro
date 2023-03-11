@@ -1,0 +1,49 @@
+---
+import Hero2 from '~/components/widgets/Hero2.astro';
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+
+const meta = {
+	title: SITE.title,
+	description: SITE.description,
+	dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+	<Hero2 image={{ src: import('~/assets/images/fly-d-C5pXRFEjq3w-unsplash.jpg'), alt: 'Notebook mit Schloss' }}>
+		<Fragment slot="title">
+			<span class="">Über Uns</span>
+		</Fragment>
+
+		<Fragment slot="subtitle">
+			<span class="hidden sm:inline"></span>
+			Wir sind ein wachsender Managed IT Service Provider mit Sitz in Hannover und betreuen Kunden in ganz Deutschland. Unser
+			Fokus liegt auf den neuesten Technologien, Cloud-Services und Sicherheit. Dabei geht es uns nicht nur um den Schutz
+			der IT-Infrastruktur, sondern auch um den Schutz der Menschen, die sie nutzen.
+		</Fragment>
+	</Hero2>
+	<div class="container mx-auto">
+		<p class="text-center my-4">
+			Wir sind ein wachsender Managed IT Service Provider mit Sitz in Hannover und betreuen Kunden in ganz Deutschland.
+			Unser Fokus liegt auf den neuesten Technologien, Cloud-Services und Sicherheit. Dabei geht es uns nicht nur um den
+			Schutz der IT-Infrastruktur, sondern auch um den Schutz der Menschen, die sie nutzen.
+		</p>
+		<p class="text-center my-4">
+			Unser Ziel ist es, Ihnen umfassende IT-Dienstleistungen anzubieten, die speziell auf die Bedürfnisse Ihres
+			Unternehmens zugeschnitten sind. Wir bieten sowohl vollständig gemanagte Services als auch die Übernahme einzelner
+			IT-Prozesse wie Business Continuity oder Monitoring und Reporting an.
+		</p>
+		<p class="text-center my-4">
+			Als Managed IT Service Provider verstehen wir uns als langfristiger Partner unserer Kunden. Wir arbeiten eng mit
+			Ihnen zusammen, um Ihre IT-Infrastruktur kontinuierlich zu optimieren und auf dem neuesten Stand zu halten. Unser
+			erfahrenes Team aus IT-Experten steht Ihnen jederzeit zur Verfügung und unterstützt Sie bei der Planung, Umsetzung
+			und Überwachung Ihrer IT-Systeme.
+		</p>
+		<p class="text-center my-4">
+			Wir sind stolz darauf, unseren Kunden einen erstklassigen Service zu bieten und freuen uns darauf, auch Ihnen bei
+			Ihren IT-Herausforderungen helfen zu können. Kontaktieren Sie uns noch heute, um mehr darüber zu erfahren, wie wir
+			Sie unterstützen können.
+		</p>
+	</div>
+</Layout>
