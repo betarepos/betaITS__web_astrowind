@@ -62,7 +62,7 @@ export const footerData = {
     // },
   ],
   secondaryLinks: [
-    { text: 'Impressum', href: getPermalink('/terms') },
+    { text: 'Impressum', href: getPermalink('/impressum') },
     { text: 'Datenschutz', href: getPermalink('/privacy') },
   ],
   socialLinks: [
