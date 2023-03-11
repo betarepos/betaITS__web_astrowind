@@ -9,55 +9,17 @@ export const headerData = {
           text: 'Managed Endpoint',
           href: getPermalink('/services/managed-endpoint'),
         },
-        {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
-        },
       ],
     },
-    {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Pricing',
-          href: '#',
-        },
-        {
-          text: 'About us',
-          href: '#',
-        },
-        {
-          text: 'Contact',
-          href: '#',
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
+
     {
       text: 'Blog',
       href: getBlogPermalink(),
     },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  // actions: [
+  //   { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
+  // ],
 };
 
 
@@ -66,13 +28,13 @@ export const footerData = {
     {
       title: 'Services',
       links: [
-        { text: 'Managed Endpoint', href: '#' },
-        { text: 'Managed Network', href: '#' },
-        { text: 'Managed M365', href: '#' },
-        { text: 'Managed Security', href: '#' },
-        { text: 'Business Continuity', href: '#' },
-        { text: 'Mobile Device Management', href: '#' },
-        { text: 'Patchmanagement', href: '#' },
+        { text: 'Managed Endpoint', href: '/services/managed-endpoint' },
+        { text: 'Managed Network', href: '/services/managed-network' },
+        // { text: 'Managed M365', href: '#' },
+        // { text: 'Managed Security', href: '#' },
+        // { text: 'Business Continuity', href: '#' },
+        // { text: 'Mobile Device Management', href: '#' },
+        // { text: 'Patchmanagement', href: '#' },
       ],
     },
     {
@@ -80,22 +42,22 @@ export const footerData = {
       links: [
         { text: 'Help Desk', href: 'https://helpdesk.beta-its.de' },
         { text: 'Knowledgebase', href: 'https://helpdesk.beta-its.de' },
-        { text: 'Teamviewer', href: 'https://download.teamviewer.com/download/TeamViewerQS.exe' },
+        { text: 'TeamviewerQS Download', href: 'https://download.teamviewer.com/download/TeamViewerQS.exe' },
         { text: 'Managed Backup Portal', href: 'https://m365.backups-beta-its.de' },
       ],
     },
-    {
-      title: 'betaITS',
-      links: [
-        { text: 'Über Uns', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Karriere', href: '#' },
-        // { text: 'Press', href: '#' },
-        // { text: 'Inclusion', href: '#' },
-        // { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
-    },
+    // {
+    //   title: 'betaITS',
+    //   links: [
+    //     { text: 'Über Uns', href: '/about' },
+    //     { text: 'Blog', href: '#' },
+    //     { text: 'Karriere', href: '#' },
+    //     // { text: 'Press', href: '#' },
+    //     // { text: 'Inclusion', href: '#' },
+    //     // { text: 'Social Impact', href: '#' },
+    //     { text: 'Shop', href: '#' },
+    //   ],
+    // },
   ],
   secondaryLinks: [
     { text: 'Impressum', href: getPermalink('/terms') },

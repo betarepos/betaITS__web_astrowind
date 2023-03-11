@@ -3,7 +3,7 @@ title: 'Datenschutz'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_letztes Update_: 02 Feb 2023
+_letztes Update_: 11 Mrz 2023
 
 ## Verantwortliche Stelle
 
@@ -23,7 +23,9 @@ Bei Fragen zu unserem Datenschutz nehmen Sie bitte mit unserem externen Datensch
 
 Frau Winona Wenning <br>
 c/o Althammer & Kill GmbH & Co. KG <br>
-Roscherstraße 7, 30161 Hannover
+Roscherstraße 7, 30161 Hannover <br>
+Telefonnummer +49 511 330603-90 <br>
+E-Mail kontakt-dsb@althammer-kill.de
 
 ## Zugriffsdaten
 
