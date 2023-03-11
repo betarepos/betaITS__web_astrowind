@@ -12,7 +12,7 @@ tags:
   - malware
 ---
 
-## Schützen Sie Ihr Unternehmen mit einem Managed Security Service
+## Schützen Sie Ihr Unternehmen mit einem Managed Security Service!
 
 Ransomware-Angriffe werden immer häufiger und richten bei Unternehmen aller Größenordnungen großen Schaden an. Bei einem Ransomware-Angriff verschlüsseln Cyberkriminelle die Daten eines Unternehmens und verlangen eine Lösegeldzahlung im Austausch für den Entschlüsselungscode. Diese Art von Angriffen kann erhebliche finanzielle Verluste, Rufschädigung und Geschäftsunterbrechungen verursachen.
 
