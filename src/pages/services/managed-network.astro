@@ -9,7 +9,7 @@ import { headerData } from '~/data';
 import Pricing from '~/components/widgets/Pricing.astro';
 
 const meta = {
-	title: 'Managed Endpoint',
+	title: 'Managed Network',
 };
 
 const pricing = [
@@ -58,17 +58,25 @@ const pricing = [
 
 	<!-- Hero2 Widget ******************* -->
 
-	<Hero2 image={{ src: import('~/assets/images/fly-d-C5pXRFEjq3w-unsplash.jpg'), alt: 'Notebook mit Schloss' }}>
+	<Hero2
+		image={{
+			src: import('~/assets/images/server-gb7e58ac83_1920.jpg'),
+			alt: 'Rechenzentrum mit bunten LEDs die sich im Boden spiegeln',
+		}}
+	>
 		<Fragment slot="title">
-			<span class="font-gothic">Managed Endpoint</span>
+			<span class="font-gothic">Managed Network</span>
 		</Fragment>
 
 		<Fragment slot="subtitle">
 			<span class="hidden sm:inline"
-				>die Komplettlösung für die Verwaltung und Wartung Ihrer Endgeräte. Verabschieden Sie sich von der aufwändigen
-				Verwaltung mehrerer Systeme und profitieren Sie von zentralisiertem Management und höchster Sicherheit mit
-				unserem Managed Endpoint Service. Wir bieten Ihnen maximalen Schutz vor Cyberangriffen, Patch-Management für
-				Betriebssysteme und Anwendungen, Softwareverteilung und Gerätekonfigurationsmanagement.
+				>Ein Managed Network Service kann Ihrem Unternehmen viele Vorteile bieten. Als Managed IT Service Provider
+				können wir sicherstellen, dass Ihr Netzwerk sicher, skalierbar, effizient und kosteneffektiv ist. Wir überwachen
+				und warten Ihr Netzwerk, um sicherzustellen, dass es immer auf dem neuesten Stand ist und optimal funktioniert.
+				Zusätzlich kontrollieren und managen wir Ihre Firewalls und VPN Verbindungen, so bleibt ihr Netzwerk jederzeit
+				sicher. Wenn Sie sich für einen Managed Network Service entscheiden, können Sie sich auf Ihr Kerngeschäft
+				konzentrieren und müssen sich keine Gedanken über die Verwaltung und Wartung Ihres Netzwerks machen.
+				Kontaktieren Sie uns noch heute, um zu erfahren, wie wir Ihnen helfen können.
 			</span>
 		</Fragment>
 	</Hero2>
@@ -81,7 +89,7 @@ const pricing = [
 			{
 				title: 'Erhöhte Sicherheit',
 				description:
-					'bietet fortschrittliche Sicherheitsmaßnahmen zum Schutz vor Cyber-Bedrohungen und Malware-Angriffen und gewährleistet die Sicherheit und Integrität der Daten und Geräte Ihres Unternehmens.',
+					'wir haben Ihren Netzwerkverkehr, Firewallregeln und Zugriff von Geräten auf Ihre Netzwerk zu jeder Zeit im Blick.',
 			},
 			{
 				title: 'Effizienterer IT-Betrieb',
@@ -95,14 +103,14 @@ const pricing = [
 			},
 		]}
 		image={{
-			src: import('~/assets/images/workspace-g0af596631_1920.jpg'),
-			alt: 'Colorful Image',
+			src: import('~/assets/images/stockvault-server-network-panel142572.jpg'),
+			alt: 'Switch in einem Serverschrank mit Netzwerkkabeln',
 		}}
 	>
 		<Fragment slot="content">
 			<h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Nutzen Sie die Vorteile</h3>
-			Mit unserem Managed Endpoint Service profitieren Sie von unserem Expertenwissen im Umgang mit IT-Security, Device Compliance
-			und Softwaremanagement.
+			Mit unserem Managed Network Service profitieren Sie von unserem Expertenwissen im Umgang mit Netzwerksicherheit, Netzwerkzugriffen
+			und Firewallmanagement.
 		</Fragment>
 	</Content>
 </Layout>
