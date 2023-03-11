@@ -72,7 +72,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/betaITSgmbh' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/betaits-gmbh/' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>
