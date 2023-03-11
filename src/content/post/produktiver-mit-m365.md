@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-24T00:00:00Z
 title: Produktiver werden mit Microsoft 365
-description: Tipps & Tricks um mit Microsofts Anwendungsportfolio produktiver zu arbeiten
+description: Wir geben wertvolle Tipps und Tricks für Microsoft 365. Erfahren Sie, wie Sie das Beste aus den verschiedenen Anwendungen wie Word, Excel und Outlook herausholen können, um produktiver zu arbeiten. Wir teilen auch bewährte Methoden für die Zusammenarbeit mit Kollegen und die Organisation von Aufgaben und Projekten. Lesen Sie jetzt unseren Beitrag und lassen Sie sich von unseren Expertentipps inspirieren.
 excerpt: OneDrive für unterbrechungsfreie Arbeit, ToDo und Planner für Aufgabenmanagement und weitere Anregungen ihre Arbeitsalltag produktiver zu gestalten.
 image: ~/assets/images/do-more.jpg
 category: productivity

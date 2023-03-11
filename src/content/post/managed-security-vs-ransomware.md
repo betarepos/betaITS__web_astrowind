@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Ransomware - Wie Sie ihre IT schützen können
-description: Schutz gegen Ransomware und andere IT-Risiken durch unseren Managed Security Service.
+description: In unserem neuesten Blog-Beitrag erfahren Sie, wie ein Managed Security Service dazu beitragen kann, Ihr Unternehmen vor Ransomware-Angriffen zu schützen. Wir erklären, wie unser Service proaktiv Bedrohungen erkennt und darauf reagiert, um Schäden zu minimieren. Darüber hinaus teilen wir bewährte Methoden für die Sicherung von Daten und die Wiederherstellung nach einem Angriff. Lesen Sie jetzt unseren Beitrag und erfahren Sie, wie wir Ihnen helfen können, Ihre Unternehmensdaten zu schützen.
 excerpt: Ransomware ist eine der größten IT-Risiken unserer Zeit, wie schützt man sich effektiv gegen Angriffe?
 image: ~/assets/images/source-g5225e42f3_1920.jpg
 category: 'cybersecurity'
