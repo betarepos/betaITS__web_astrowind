@@ -15,7 +15,7 @@ Handelsregister: HRB 224746 <br>
 Registergericht: Amtsgericht Hannover <br>
 USt.IdNr: DE357193757
 
-Telefon: +49174186 86 22 <br>
+Telefon: +4951371492360 <br>
 E-Mail: [info@beta-its.de](mailto:info+impressum@beta-its.de) <br>
 Vertreten durch: Benjamin Tasche
 
