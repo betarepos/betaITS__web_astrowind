@@ -13,6 +13,11 @@ export const headerData = {
           text: 'Managed Network',
           href: getPermalink('/services/managed-network'),
         },
+
+        {
+          text: 'Managed M365',
+          href: getPermalink('/services/managed-m365'),
+        },
       ],
     },
     {
@@ -32,7 +37,7 @@ export const footerData = {
       links: [
         { text: 'Managed Endpoint', href: '/services/managed-endpoint' },
         { text: 'Managed Network', href: '/services/managed-network' },
-        // { text: 'Managed M365', href: '#' },
+        { text: 'Managed M365', href: '/services/managed-network' },
         // { text: 'Managed Security', href: '#' },
         // { text: 'Business Continuity', href: '#' },
         // { text: 'Mobile Device Management', href: '#' },
@@ -44,7 +49,6 @@ export const footerData = {
       links: [
         { text: 'Help Desk', href: 'https://helpdesk.beta-its.de' },
         { text: 'Knowledgebase', href: 'https://helpdesk.beta-its.de' },
-        { text: 'TeamviewerQS Download', href: 'https://download.teamviewer.com/download/TeamViewerQS.exe' },
         { text: 'Managed Backup Portal', href: 'https://m365.backups-beta-its.de' },
       ],
     },
@@ -68,7 +72,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/betaITSgmbh' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/betaits-gmbh/' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>

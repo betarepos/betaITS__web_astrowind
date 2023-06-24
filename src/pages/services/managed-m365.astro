@@ -1,0 +1,80 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+
+import { headerData } from '~/data';
+
+const meta = {
+	title: 'Managed M365: Die umfassende Lösung für Ihr Unternehmen',
+	description:
+		'Erleben Sie nahtlose Microsoft 365-Verwaltung mit unserem Managed M365 Service. Wir bieten ein umfassendes Lizenzmanagement, dedizierten Helpdesk-Support und eine professionelle Verwaltung der Sicherheits- und Compliance-Einstellungen, einschließlich Microsoft Defender for Endpoint. Kontaktieren Sie uns noch heute für eine unverbindliche Beratung',
+};
+---
+
+<Layout {meta}>
+	<Fragment slot="header">
+		<Header {...headerData} isSticky showRssFeed showToggleTheme />
+	</Fragment>
+
+	<!-- Hero2 Widget ******************* -->
+
+	<Hero2
+		image={{
+			src: import('~/assets/images/user-with-mobile-laptop-and-coffee.jpg'),
+			alt: 'Nutzer mit Handy, Laptop und Kaffee',
+		}}
+	>
+		<Fragment slot="title">
+			<span class="font-gothic">Managed</span>
+			<span class="font-gothic tracking-widest"> M365</span>
+		</Fragment>
+
+		<Fragment slot="subtitle">
+			<span class="hidden sm:inline"
+				>Stärken Sie Ihr Unternehmen mit unserem Managed M365 Service. Wir bieten eine umfassende Lösung für die
+				Verwaltung Ihres Microsoft 365-Tenants, die Gewährleistung der Sicherheit Ihrer Daten und die Bereitstellung von
+				schnellem Support für Ihre Benutzer und Administratoren. Verlassen Sie sich auf unsere Expertise und
+				konzentrieren Sie sich auf Ihr Kerngeschäft. Kontaktieren Sie uns noch heute für ein unverbindliches
+				Beratungsgespräch.
+			</span>
+		</Fragment>
+	</Hero2>
+
+	<!-- Content Widget **************** -->
+
+	<Content
+		isReversed
+		items={[
+			{
+				title: 'Managed Security und Compliance',
+				description:
+					'Unser Service umfasst die umfassende Verwaltung der Sicherheits- und Compliance-Aspekte Ihres Microsoft 365-Tenants. Inklusive des Management Ihres Microsoft Defender for Endpoint.',
+			},
+			{
+				title: 'Lizenz-Verwaltung',
+				description:
+					'Wir kümmern uns um die Verwaltung Ihrer Microsoft 365-Lizenzen und sorgen dafür, dass Sie immer auf dem neuesten Stand und compliant sind.',
+			},
+			{
+				title: 'Einrichtung und Überwachung des Tenants:',
+				description:
+					'Wir kümmern uns um die Einrichtung und Wartung Ihres Microsoft 365 Tenants, damit Sie sich auf Ihr Geschäft konzentrieren können.',
+			},
+		]}
+		image={{
+			src: import('~/assets/images/user-with-notebook-and-icons.jpg'),
+			alt: 'Nutzer mit Notebook und Icons',
+		}}
+	>
+		<Fragment slot="content">
+			<h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Nutzen Sie die Vorteile</h3>
+			Verabschieden Sie sich von der aufwändigen Verwaltung der vielfältigen Aspekte von M365 und profitieren Sie mit unserem
+			Managed M365-Service von zentraler Verwaltung und erstklassiger Sicherheit. Wir bieten Ihnen zuverlässigen Schutz vor
+			Cyber-Bedrohungen, Lizenzmanagement und Gerätekonfigurationsmanagement. Mit unserem Managed M365-Service können Sie
+			unser Expertenwissen in den Bereichen IT-Sicherheit, Geräte-Compliance und Software-Management nutzen.
+		</Fragment>
+	</Content>
+</Layout>

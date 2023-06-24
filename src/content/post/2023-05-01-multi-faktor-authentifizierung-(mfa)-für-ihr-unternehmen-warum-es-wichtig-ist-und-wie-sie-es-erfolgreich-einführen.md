@@ -1,17 +1,21 @@
 ---
-title: 'Multifaktorauthentifizierung: Stärken Sie Ihre IT-Sicherheit'
+
+title: 'MFA: Stärken Sie Ihre IT-Sicherheit'
 description: Entdecken Sie, wie Multi-Faktor-Authentifizierung (MFA) Ihre IT-Sicherheit in Microsoft 365 stärkt und welche Best Practices Sie befolgen sollten.
-date: 2023-05-30T09:58:36.000Z
+date: 2023-06-24T09:16:16.663Z
 preview: null
 image: ~/assets/images/mfa.jpg
-draft: true
+draft: false
+
 tags:
   - IT-Security
   - MFA
   - m365
 categories:
   - Security
-slug: multifaktorauthentifizierung-starken-sie-ihre-sicherheit
+
+slug: mfa-starken-sie-ihre-sicherheit
+
 keywords:
   - MFA
 ---
