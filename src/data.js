@@ -13,13 +13,13 @@ export const headerData = {
           text: 'Managed Network',
           href: getPermalink('/services/managed-network'),
         },
+
         {
           text: 'Managed M365',
           href: getPermalink('/services/managed-m365'),
         },
       ],
     },
-
     {
       text: 'Blog',
       href: getBlogPermalink(),
@@ -29,7 +29,6 @@ export const headerData = {
   //   { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
   // ],
 };
-
 
 export const footerData = {
   links: [
