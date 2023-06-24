@@ -9,6 +9,14 @@ export const headerData = {
           text: 'Managed Endpoint',
           href: getPermalink('/services/managed-endpoint'),
         },
+        {
+          text: 'Managed Network',
+          href: getPermalink('/services/managed-network'),
+        },
+        {
+          text: 'Managed M365',
+          href: getPermalink('/services/managed-m365'),
+        },
       ],
     },
 
@@ -30,7 +38,7 @@ export const footerData = {
       links: [
         { text: 'Managed Endpoint', href: '/services/managed-endpoint' },
         { text: 'Managed Network', href: '/services/managed-network' },
-        // { text: 'Managed M365', href: '#' },
+        { text: 'Managed M365', href: '/services/managed-network' },
         // { text: 'Managed Security', href: '#' },
         // { text: 'Business Continuity', href: '#' },
         // { text: 'Mobile Device Management', href: '#' },
@@ -42,7 +50,6 @@ export const footerData = {
       links: [
         { text: 'Help Desk', href: 'https://helpdesk.beta-its.de' },
         { text: 'Knowledgebase', href: 'https://helpdesk.beta-its.de' },
-        { text: 'TeamviewerQS Download', href: 'https://download.teamviewer.com/download/TeamViewerQS.exe' },
         { text: 'Managed Backup Portal', href: 'https://m365.backups-beta-its.de' },
       ],
     },
