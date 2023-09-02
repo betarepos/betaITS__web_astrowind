@@ -54,14 +54,5 @@
       "path": "[[workspace]]/src/content/post"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "backup",
-    "m365",
-    "malware",
-    "managed-service",
-    "ransomware",
-    "security"
-  ],
-  "frontMatter.taxonomy.categories": [],
   "frontMatter.dashboard.openOnStart": true
 }
