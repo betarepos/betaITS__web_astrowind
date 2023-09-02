@@ -9,10 +9,10 @@
 
 ## Features
 
-- ✅ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) supporting **Dark mode**.
+- ✅ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) supporting **Dark mode** and ***RTL***.
 - ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
 - ✅ **Fast and SEO friendly blog** with automatic **RSS feed** ([@astrojs/rss](https://docs.astro.build/en/guides/rss/)), [**MDX** support](https://docs.astro.build/en/guides/integrations-guide/mdx/), **Categories & Tags**, **Social Share**, ...
-- ✅ **Image optimization** ([@astrojs/images](https://docs.astro.build/en/guides/integrations-guide/image/)) and **Font optimization**.
+- ✅ **Image Optimization** (using new [Astro Assets](https://astro.build/blog/images/) and [Unpic](https://unpic.pics/lib/) for Universal image CDN) and **Font optimization**.
 - ✅ Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
 - ✅ **Open Graph tags** for social media sharing.
 - ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
@@ -69,20 +69,23 @@ Inside AstroWind template, you'll see the following folders and files:
 ```
 /
 ├── public/
-│   ├── robots.txt
-│   └── favicon.ico
+│   ├── _headers
+│   └── robots.txt
 ├── src/
 │   ├── assets/
+│   │   ├── favicons/
 │   │   ├── images/
 │   │   └── styles/
-│   │       └── base.css
+│   │       └── tailwind.css
 │   ├── components/
 │   │   ├── blog/
 │   │   ├── common/
+│   │   ├── ui/
 │   │   ├── widgets/
 │   │   │   ├── Header.astro
 │   │   │   └── ...
 │   │   ├── CustomStyles.astro
+│   │   ├── Favicons.astro
 │   │   └── Logo.astro
 │   ├── content/
 │   │   ├── post/
@@ -91,8 +94,9 @@ Inside AstroWind template, you'll see the following folders and files:
 │   │   │   └── ...
 │   │   └-- config.ts
 │   ├── layouts/
-│   │   ├── BaseLayout.astro
-│   │   └── ...
+│   │   ├── Layout.astro
+│   │   ├── MarkdownLayout.astro
+│   │   └── PageLayout.astro
 │   ├── pages/
 │   │   ├── [...blog]/
 │   │   │   ├── [category]/
@@ -104,8 +108,8 @@ Inside AstroWind template, you'll see the following folders and files:
 │   │   ├-- rss.xml.ts
 │   │   └── ...
 │   ├── utils/
-│   ├── config.mjs
-│   └── data.js
+│   ├── config.yaml
+│   └── navigation.js
 ├── package.json
 ├── astro.config.mjs
 └── ...
@@ -141,65 +145,78 @@ All commands are run from the root of the project, from a terminal:
 
 ### Configuration
 
-Basic configuration file: `./src/config.mjs`
+Basic configuration file: `./src/config.yaml`
 
-```javascript
-const CONFIG = {
-  name: 'Example',
+```yaml
+site:
+  name: 'Example'
+  site: 'https://example.com'
+  base: '/' # Change this if you need to deploy to Github Pages, for example
+  trailingSlash: false # Generate permalinks with or without "/" at the end
 
-  origin: 'https://example.com',
-  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
-  trailingSlash: false, // Generate permalinks with or without "/" at the end
+  googleSiteVerificationId: false # Or some value,
 
-  title: 'Example - This is the homepage title of Example', // Default seo title
-  description: 'This is the homepage description of Example', // Default seo description
-  defaultImage: 'image.jpg', // Default seo image
+# Default SEO metadata
+metadata:
+  title:
+    default: 'Example'
+    template: '%s — Example'
+  description: 'This is the default meta description of Example website'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: 'Example'
+    images:
+      - url: '~/assets/images/default.jpg'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@twitter_user'
+    site: '@twitter_user'
+    cardType: summary_large_image
 
-  defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+i18n:
+  language: en
+  textDirection: ltr
 
-  language: 'en', // Default language
-  textDirection: 'ltr', // Default html text direction
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 6
 
-  dateFormatter: new Intl.DateTimeFormat('en', {
-    // Date format
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    timeZone: 'UTC',
-  }),
+    post:
+      isEnabled: true
+      permalink: '/blog/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      robots:
+        index: true
 
-  googleAnalyticsId: false, // Or "G-XXXXXXXXXX",
-  googleSiteVerificationId: false, // Or some value,
+    list:
+      isEnabled: true
+      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      robots:
+        index: true
 
-  blog: {
-    disabled: false,
-    postsPerPage: 4,
+    category:
+      isEnabled: true
+      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      robots:
+        index: true
 
-    post: {
-      permalink: '/%slug%', // variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
-      noindex: false,
-      disabled: false,
-    },
+    tag:
+      isEnabled: true
+      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      robots:
+        index: false
 
-    list: {
-      pathname: 'blog', // Blog main path, you can change this to "articles" (/articles)
-      noindex: false,
-      disabled: false,
-    },
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null # or "G-XXXXXXXXXX"
 
-    category: {
-      pathname: 'category', // Category main path /category/some-category
-      noindex: true,
-      disabled: false,
-    },
-
-    tag: {
-      pathname: 'tag', // Tag main path /tag/some-tag
-      noindex: true,
-      disabled: false,
-    },
-  },
-};
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 ```
 
 <br>
